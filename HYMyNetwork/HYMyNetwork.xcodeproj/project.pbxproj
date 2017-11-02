@@ -37,6 +37,7 @@
 		8E9697F61FAB0CCB002526FE /* HYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkTool.m; sourceTree = "<group>"; };
 		8E9697F71FAB0CCB002526FE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8E9697F81FAB0CCB002526FE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8E9697FC1FAB1348002526FE /* HYNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNetwork.h; sourceTree = "<group>"; };
 		9C942751D3E14245D6E64527 /* Pods-HYMyNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMyNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYMyNetwork/Pods-HYMyNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		DD5FC70D689CD489B57295BB /* libPods-HYMyNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYMyNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +101,7 @@
 		8E9697F21FAB0CCB002526FE /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8E9697FC1FAB1348002526FE /* HYNetwork.h */,
 				8E9697F31FAB0CCB002526FE /* HYNetworkReachabilityManager.h */,
 				8E9697F41FAB0CCB002526FE /* HYNetworkReachabilityManager.m */,
 				8E9697F51FAB0CCB002526FE /* HYNetworkTool.h */,

@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HYNetworkReachabilityManager.h"
-#import "HYNetworkTool.h"
-
+#import "HYNetwork.h"
 
 @interface ViewController ()
 
