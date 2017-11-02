@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9697DE1FAB0CA4002526FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697DD1FAB0CA4002526FE /* AppDelegate.m */; };
+		8E9697E11FAB0CA4002526FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697E01FAB0CA4002526FE /* ViewController.m */; };
+		8E9697E41FAB0CA4002526FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9697E21FAB0CA4002526FE /* Main.storyboard */; };
+		8E9697E61FAB0CA4002526FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9697E51FAB0CA4002526FE /* Assets.xcassets */; };
+		8E9697E91FAB0CA4002526FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9697E71FAB0CA4002526FE /* LaunchScreen.storyboard */; };
+		8E9697EC1FAB0CA4002526FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697EB1FAB0CA4002526FE /* main.m */; };
+		8E9697F91FAB0CCC002526FE /* HYNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697F41FAB0CCB002526FE /* HYNetworkReachabilityManager.m */; };
+		8E9697FA1FAB0CCC002526FE /* HYNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697F61FAB0CCB002526FE /* HYNetworkTool.m */; };
+		8E9697FB1FAB0CCC002526FE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9697F81FAB0CCB002526FE /* Reachability.m */; };
+		E2A2593B4B9E0BE785E3E5B9 /* libPods-HYMyNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5FC70D689CD489B57295BB /* libPods-HYMyNetwork.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C523C8E3CB8EF380BFE5BF1 /* Pods-HYMyNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMyNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYMyNetwork/Pods-HYMyNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		8E9697D91FAB0CA4002526FE /* HYMyNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMyNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9697DC1FAB0CA4002526FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E9697DD1FAB0CA4002526FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E9697DF1FAB0CA4002526FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E9697E01FAB0CA4002526FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E9697E31FAB0CA4002526FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E9697E51FAB0CA4002526FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9697E81FAB0CA4002526FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E9697EA1FAB0CA4002526FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9697EB1FAB0CA4002526FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E9697F31FAB0CCB002526FE /* HYNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8E9697F41FAB0CCB002526FE /* HYNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8E9697F51FAB0CCB002526FE /* HYNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNetworkTool.h; sourceTree = "<group>"; };
+		8E9697F61FAB0CCB002526FE /* HYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkTool.m; sourceTree = "<group>"; };
+		8E9697F71FAB0CCB002526FE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8E9697F81FAB0CCB002526FE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9C942751D3E14245D6E64527 /* Pods-HYMyNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMyNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYMyNetwork/Pods-HYMyNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5FC70D689CD489B57295BB /* libPods-HYMyNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYMyNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9697D61FAB0CA4002526FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A2593B4B9E0BE785E3E5B9 /* libPods-HYMyNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06756D9BA2E43B0BD20A7522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C942751D3E14245D6E64527 /* Pods-HYMyNetwork.debug.xcconfig */,
+				4C523C8E3CB8EF380BFE5BF1 /* Pods-HYMyNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E9697D01FAB0CA4002526FE = {
+			isa = PBXGroup;
+			children = (
+				8E9697DB1FAB0CA4002526FE /* HYMyNetwork */,
+				8E9697DA1FAB0CA4002526FE /* Products */,
+				06756D9BA2E43B0BD20A7522 /* Pods */,
+				B97EEDD19B7A85760B94631E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9697DA1FAB0CA4002526FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9697D91FAB0CA4002526FE /* HYMyNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9697DB1FAB0CA4002526FE /* HYMyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8E9697F21FAB0CCB002526FE /* Network */,
+				8E9697DC1FAB0CA4002526FE /* AppDelegate.h */,
+				8E9697DD1FAB0CA4002526FE /* AppDelegate.m */,
+				8E9697DF1FAB0CA4002526FE /* ViewController.h */,
+				8E9697E01FAB0CA4002526FE /* ViewController.m */,
+				8E9697E21FAB0CA4002526FE /* Main.storyboard */,
+				8E9697E51FAB0CA4002526FE /* Assets.xcassets */,
+				8E9697E71FAB0CA4002526FE /* LaunchScreen.storyboard */,
+				8E9697EA1FAB0CA4002526FE /* Info.plist */,
+				8E9697EB1FAB0CA4002526FE /* main.m */,
+			);
+			path = HYMyNetwork;
+			sourceTree = "<group>";
+		};
+		8E9697F21FAB0CCB002526FE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8E9697F31FAB0CCB002526FE /* HYNetworkReachabilityManager.h */,
+				8E9697F41FAB0CCB002526FE /* HYNetworkReachabilityManager.m */,
+				8E9697F51FAB0CCB002526FE /* HYNetworkTool.h */,
+				8E9697F61FAB0CCB002526FE /* HYNetworkTool.m */,
+				8E9697F71FAB0CCB002526FE /* Reachability.h */,
+				8E9697F81FAB0CCB002526FE /* Reachability.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B97EEDD19B7A85760B94631E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5FC70D689CD489B57295BB /* libPods-HYMyNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9697D81FAB0CA4002526FE /* HYMyNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9697EF1FAB0CA4002526FE /* Build configuration list for PBXNativeTarget "HYMyNetwork" */;
+			buildPhases = (
+				00E94CC04405DF08D0FFACD6 /* [CP] Check Pods Manifest.lock */,
+				8E9697D51FAB0CA4002526FE /* Sources */,
+				8E9697D61FAB0CA4002526FE /* Frameworks */,
+				8E9697D71FAB0CA4002526FE /* Resources */,
+				9744E33828BC119E4376747E /* [CP] Embed Pods Frameworks */,
+				F8ECC336DCE098DA30229D78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYMyNetwork;
+			productName = HYMyNetwork;
+			productReference = 8E9697D91FAB0CA4002526FE /* HYMyNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9697D11FAB0CA4002526FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ocean;
+				TargetAttributes = {
+					8E9697D81FAB0CA4002526FE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E9697D41FAB0CA4002526FE /* Build configuration list for PBXProject "HYMyNetwork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9697D01FAB0CA4002526FE;
+			productRefGroup = 8E9697DA1FAB0CA4002526FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9697D81FAB0CA4002526FE /* HYMyNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9697D71FAB0CA4002526FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9697E91FAB0CA4002526FE /* LaunchScreen.storyboard in Resources */,
+				8E9697E61FAB0CA4002526FE /* Assets.xcassets in Resources */,
+				8E9697E41FAB0CA4002526FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E94CC04405DF08D0FFACD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9744E33828BC119E4376747E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYMyNetwork/Pods-HYMyNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8ECC336DCE098DA30229D78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYMyNetwork/Pods-HYMyNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9697D51FAB0CA4002526FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9697F91FAB0CCC002526FE /* HYNetworkReachabilityManager.m in Sources */,
+				8E9697E11FAB0CA4002526FE /* ViewController.m in Sources */,
+				8E9697EC1FAB0CA4002526FE /* main.m in Sources */,
+				8E9697DE1FAB0CA4002526FE /* AppDelegate.m in Sources */,
+				8E9697FB1FAB0CCC002526FE /* Reachability.m in Sources */,
+				8E9697FA1FAB0CCC002526FE /* HYNetworkTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E9697E21FAB0CA4002526FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9697E31FAB0CA4002526FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E9697E71FAB0CA4002526FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9697E81FAB0CA4002526FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E9697ED1FAB0CA4002526FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E9697EE1FAB0CA4002526FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9697F01FAB0CA4002526FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C942751D3E14245D6E64527 /* Pods-HYMyNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYMyNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.HYMyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9697F11FAB0CA4002526FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C523C8E3CB8EF380BFE5BF1 /* Pods-HYMyNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYMyNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.HYMyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9697D41FAB0CA4002526FE /* Build configuration list for PBXProject "HYMyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9697ED1FAB0CA4002526FE /* Debug */,
+				8E9697EE1FAB0CA4002526FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9697EF1FAB0CA4002526FE /* Build configuration list for PBXNativeTarget "HYMyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9697F01FAB0CA4002526FE /* Debug */,
+				8E9697F11FAB0CA4002526FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9697D11FAB0CA4002526FE /* Project object */;
+}
